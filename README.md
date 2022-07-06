@@ -311,19 +311,12 @@ Please cite our work if you find this repository useful.
 ```bibtex
 @misc{https://doi.org/10.48550/arxiv.2205.01228,
   doi = {10.48550/ARXIV.2205.01228},
-  
   url = {https://arxiv.org/abs/2205.01228},
-  
   author = {Di Liello, Luca and Garg, Siddhant and Soldaini, Luca and Moschitti, Alessandro},
-  
   keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
   title = {Paragraph-based Transformer Pre-training for Multi-Sentence Inference},
-  
   publisher = {arXiv},
-  
   year = {2022},
-  
   copyright = {Creative Commons Attribution 4.0 International}
 }
 ```
@@ -335,3 +328,8 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 # License
 
 This library is licensed under the CC-BY-NC-4.0 License.
+
+# Contact
+For help or issues with this repository, please submit a GitHub issue.
+
+For direct communication, please contact Luca Di Liello (luca.diliello is at unitn.it) or  Siddhant Garg (sidgarg is at amazon dot com).
