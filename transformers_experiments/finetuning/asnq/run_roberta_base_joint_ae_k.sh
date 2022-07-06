@@ -1,0 +1,32 @@
+python -m transformers_framework \
+    --model RobertaJointAS2 \
+    --devices 8 --accelerator gpu --strategy ddp \
+    --precision 16 \
+    --pre_trained_model <path-to-pretrained-model> \
+    --name roberta-base-joint-asnq-AE-k \
+    --output_dir outputs/joint-asnq \
+    \
+    --adapter JointwiseArrowAdapter \
+    --batch_size 128 --val_batch_size 128 --test_batch_size 128 \
+    --train_filepath <path-to-asnq-dataset> --train_split train \
+    --valid_filepath <path-to-asnq-dataset> --valid_split validation \
+    --test_filepath <path-to-asnq-dataset> --test_split test \
+    --field_names question answer \
+    --label_name label \
+    --key_name key \
+    \
+    --accumulate_grad_batches 2 \
+    --max_sequence_length 64 \
+    -k 5 --selection all --force_load_dataset_in_memory --separated \
+    --learning_rate 1e-05 \
+    --max_epochs 6 \
+    --early_stopping \
+    --patience 8 \
+    --weight_decay 0.0 \
+    --num_warmup_steps 5000 \
+    --monitor validation/map \
+    --val_check_interval 0.5 \
+    --num_workers 8 \
+    --shuffle_candidates --reload_dataloaders_every_n_epoch 1 \
+    --head_type AE_k \
+    --seed 1337

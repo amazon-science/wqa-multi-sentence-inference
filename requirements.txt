@@ -1,0 +1,13 @@
+torch>=1.10.2,<=1.12
+torchmetrics>=0.7.2,<0.8
+rich>=10.14
+scipy>=1.7.3
+torchvision>=0.11.3
+sentencepiece
+matplotlib
+tokenizers>=0.11.6
+datasets>=2.1.0,<3
+transformers>=4.17,<5
+transformers-lightning>=0.7.8,<8
+pytorch-lightning>=1.5.10,<1.6
+blingfire>=0.1.7
