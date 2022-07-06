@@ -172,10 +172,10 @@ The script are also available in the folder `transformers_experiments/pretrainin
 
 
 For those who would like to have the already pretrained models on BookCorpus, CC-News, OpenWebText and Wikipedia (English), we are resealsing them:
-* [Joint model pretrained with IE_k head.](http://)
-* [Joint model pretrained with AE_k head.](http://)
+* [Joint model pretrained with IE_k head.](https://d3t7erp6ge410c.cloudfront.net/multi-sentence-inference-naacl-2022/models/joint_pretrained_roberta_ie_k.tar)
+* [Joint model pretrained with AE_k head.](https://d3t7erp6ge410c.cloudfront.net/multi-sentence-inference-naacl-2022/models/joint_pretrained_roberta_ae_k.tar)
 
-**NEWS**: Improved models trained for longer iterations and on larger data will be made available soon.
+**Note**: Improved models trained for longer iterations and on larger data will be made available soon.
 
 
 <a name="finetuning-testing"></a>
