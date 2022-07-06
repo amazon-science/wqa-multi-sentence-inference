@@ -1,6 +1,6 @@
-# WQA Joint Models
+# Paragraph-based Transformer Pretraining for Multi-Sentence Inference (NAACL 2022)
 
-This repository contains the code to reproduce the results of the paper: [Paragraph-based Transformer Pretraining for Multi-Sentence Inference](<Update_link_to_arxiv_paper>). The framework is based on the libraries `datasets`, `transformers` and `pytorch-lightning` to be as extensible as possible.
+This repository contains the code to reproduce the results of the paper: [Paragraph-based Transformer Pretraining for Multi-Sentence Inference](https://arxiv.org/abs/2205.01228). The framework is based on the libraries `datasets`, `transformers` and `pytorch-lightning` to be as extensible as possible.
 
 
 # Index
@@ -175,7 +175,7 @@ For those who would like to have the already pretrained models on BookCorpus, CC
 * [Joint model pretrained with IE_k head.](http://)
 * [Joint model pretrained with AE_k head.](http://)
 
-**NEWS**: More models trained on better data and for a longer time will arrive soon.
+**NEWS**: Improved models trained for longer iterations and on larger data will be made available soon.
 
 
 <a name="finetuning-testing"></a>
