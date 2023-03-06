@@ -1,4 +1,4 @@
-torch>=1.10.2,<=1.12
+torch>=1.13.1
 torchmetrics>=0.7.2,<0.8
 rich>=10.14
 scipy>=1.7.3
